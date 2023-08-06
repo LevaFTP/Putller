@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 6bcc8d0102101594186c9bdfdf22675d
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 004a0d08d244b6641b8889db0719a3b1
+  - enabled: 1
+    path: Assets/Scenes/Boss1.unity
+    guid: 95826de6c2fdb3940b79cd1a72c6913e
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 1B.unity
+    guid: 45adc26ecf76f0e49872cd08d200e434
+  - enabled: 1
+    path: Assets/Scenes/Boss2.unity
+    guid: 3646ece8837e42d41820b2068dbcb5b6
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 2B.unity
+    guid: 41f1466051d14f840a2e9a4f38ea477a
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 3A.unity
+    guid: 24828a8291cbba044b037d36a5add1be
+  - enabled: 1
+    path: Assets/Scenes/Boss3.unity
+    guid: 3b26ab16cb2d1b44098da1e98c4a7744
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 3B.unity
+    guid: 2ae804adc753ed641b2fe77e14a48ace
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 4A.unity
+    guid: 30cf272c26ec26442bca5015badca1c2
+  - enabled: 1
+    path: Assets/Scenes/Boss4.unity
+    guid: e92a27215d141b34787134651931c3e2
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 4B.unity
+    guid: 8bdd2ef0cfe6a1945bffce12ad498ada
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 5A.unity
+    guid: 34c78f394366c2546a57a60317655b65
+  - enabled: 1
+    path: Assets/Scenes/Boss5.unity
+    guid: 318dc9d1fb7614d42a23ac8f557c68d7
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 6A.unity
+    guid: fabb74178bca82f48a4c9ca53b59d39f
+  - enabled: 1
+    path: Assets/Scenes/Boss6.unity
+    guid: ae050c9804a5f804db4710a62ba6fd3f
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 7A.unity
+    guid: 8cce25242cbd72b40a25f932299f8b72
+  - enabled: 1
+    path: Assets/Scenes/FinalBoss.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Story/Fight 7B.unity
+    guid: a14d68d628a4c9b4383daf79d82312b7
+  - enabled: 1
+    path: Assets/Scenes/Improvements.unity
+    guid: be5573e906420f24091fd615bf96ece3
+  - enabled: 1
+    path: Assets/Scenes/Developer.unity
+    guid: 6e18eceef0bb41947bc4a72c48ce10a1
+  - enabled: 1
+    path: Assets/Scenes/Achievement.unity
+    guid: 894cf52a6224bf24b9f52be0466cf18d
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: e43b06fd7f2b2d140b1f3a6172ef9b59
+  m_configObjects: {}

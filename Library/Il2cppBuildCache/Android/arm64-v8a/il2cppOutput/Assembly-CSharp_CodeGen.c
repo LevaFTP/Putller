@@ -1,0 +1,323 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Achievement::Start()
+extern void Achievement_Start_m28AFB8259C437FC563D1F58A4CD1BA28D3EA9FA9 (void);
+// 0x00000002 System.Void Achievement::AchievementBack()
+extern void Achievement_AchievementBack_mE17349F6B693CE00CD1AF1E20B87D848B9179241 (void);
+// 0x00000003 System.Void Achievement::.ctor()
+extern void Achievement__ctor_m72DF99642C6E1A316F0EA9B71EA138D60649EC6B (void);
+// 0x00000004 System.Void Developer::Start()
+extern void Developer_Start_m41EB0BC4841D05A192635119F5E9A481B01BC951 (void);
+// 0x00000005 System.Void Developer::Update()
+extern void Developer_Update_m43CDA65AB1C7BE377D73A6BB038DA7F052DB1C7C (void);
+// 0x00000006 System.Void Developer::ToDelevoper()
+extern void Developer_ToDelevoper_mAB325BF2424468734B18440D538CDB9ADFFB5D30 (void);
+// 0x00000007 System.Void Developer::DeveloperBack()
+extern void Developer_DeveloperBack_mD82081D2F5A649169827DF7A8B9EAEEB81EEA66E (void);
+// 0x00000008 System.Void Developer::ResetProgress()
+extern void Developer_ResetProgress_mD92C2422A4839FDC447B603DAAFB2E7E3CFB2800 (void);
+// 0x00000009 System.Void Developer::ResetMoney()
+extern void Developer_ResetMoney_mD97140329D771BFD47EDAA8CBE2B8C96D3C3774B (void);
+// 0x0000000A System.Void Developer::CheatMoney()
+extern void Developer_CheatMoney_m63613CBBE95A8A855D512B53E1730C3F6967E13A (void);
+// 0x0000000B System.Void Developer::BuyD(System.Int32)
+extern void Developer_BuyD_m0A8C29BF6E5012C4EAF8F4AACE0C11C47E32F96B (void);
+// 0x0000000C System.Void Developer::ResetImp()
+extern void Developer_ResetImp_m8CD436780E2384F7EB9079A15195DA0B42CEBD01 (void);
+// 0x0000000D System.Void Developer::ResetDamage()
+extern void Developer_ResetDamage_m6745E4D9B4710F6AA81743F70F8D993F21AE757B (void);
+// 0x0000000E System.Void Developer::ResetAchievements()
+extern void Developer_ResetAchievements_m73E84862B2D3780FD296BC3776643D1DE31419E3 (void);
+// 0x0000000F System.Void Developer::.ctor()
+extern void Developer__ctor_mADE691CE2F6FC0C0DC09D118AC08B1EAC7862709 (void);
+// 0x00000010 System.Void FPS::Awake()
+extern void FPS_Awake_m2CDBE4B429D1332DC4399A2EB27D4E3F359B2401 (void);
+// 0x00000011 System.Void FPS::.ctor()
+extern void FPS__ctor_mA34ADE1A160A89BFE82D0EA52A0A53A8AD8652C6 (void);
+// 0x00000012 System.Void Health::TakeHit()
+extern void Health_TakeHit_m545F7379649AA28D8B7ECDB2547339B66C4A58F0 (void);
+// 0x00000013 System.Void Health::Start()
+extern void Health_Start_m67B788A33501A2CF22C3231FD3FCCD6D1D63A77F (void);
+// 0x00000014 System.Void Health::Update()
+extern void Health_Update_mBCA15B9BB7DC24D8DD34C254D94064723BC0B368 (void);
+// 0x00000015 System.Collections.IEnumerator Health::IdleFarm(System.Int32)
+extern void Health_IdleFarm_m0F0FA4ECC92368A578F3B2D98042D33385BA78E6 (void);
+// 0x00000016 System.Void Health::.ctor()
+extern void Health__ctor_mD50C73D87211EAE260B38B2936F01722E31B9416 (void);
+// 0x00000017 System.Void Health/<IdleFarm>d__10::.ctor(System.Int32)
+extern void U3CIdleFarmU3Ed__10__ctor_mDD969A18BD82DC17630C56C9D5FD5ED57622EA28 (void);
+// 0x00000018 System.Void Health/<IdleFarm>d__10::System.IDisposable.Dispose()
+extern void U3CIdleFarmU3Ed__10_System_IDisposable_Dispose_m92D13260E73B0430672FFAEE12A3372462A250B9 (void);
+// 0x00000019 System.Boolean Health/<IdleFarm>d__10::MoveNext()
+extern void U3CIdleFarmU3Ed__10_MoveNext_m8055D2A9E65C176694E269074F914944E6DE73A3 (void);
+// 0x0000001A System.Object Health/<IdleFarm>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CIdleFarmU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA6BC78031D2BC98616C87595FB1FE635FBC5BDD8 (void);
+// 0x0000001B System.Void Health/<IdleFarm>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CIdleFarmU3Ed__10_System_Collections_IEnumerator_Reset_mA1CB68A2B6A64B5FDB824207ADB424BA5BE00C83 (void);
+// 0x0000001C System.Object Health/<IdleFarm>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CIdleFarmU3Ed__10_System_Collections_IEnumerator_get_Current_m3847180855AC69753BDB308A499E46C1632317FF (void);
+// 0x0000001D System.Void HealthBar::Start()
+extern void HealthBar_Start_mB10AF30B9000AC79352D4B0F9027D24C38D9AB98 (void);
+// 0x0000001E System.Void HealthBar::Update()
+extern void HealthBar_Update_m32757C89878259F331EE8A965C10360028EF6258 (void);
+// 0x0000001F System.Void HealthBar::SetMaxHealth(System.Int32)
+extern void HealthBar_SetMaxHealth_m785D009EF3219F59C1E49ED0C83D86C20AA1DFDA (void);
+// 0x00000020 System.Void HealthBar::SetHealth(System.Int32)
+extern void HealthBar_SetHealth_m93EA48185AB1C03D13E8E169753C93AE4E560463 (void);
+// 0x00000021 System.Void HealthBar::.ctor()
+extern void HealthBar__ctor_m0D26699B0FC0E360EE6F5D4B80FE0D2622F0AA48 (void);
+// 0x00000022 System.Void Improvements::Update()
+extern void Improvements_Update_mA5B3272FFB70AF59180C9A0295C86C2FA2470DDA (void);
+// 0x00000023 System.Void Improvements::Start()
+extern void Improvements_Start_mCD2A87B0C31005DE25AFBF56DD8315A03999FB83 (void);
+// 0x00000024 System.Void Improvements::buy1_lvl1()
+extern void Improvements_buy1_lvl1_m0E129197954EBA7BA5BF18F3C12C74A31F68B4A7 (void);
+// 0x00000025 System.Void Improvements::buy1_lvl2()
+extern void Improvements_buy1_lvl2_m2859F1CB5348907ADDEFCEC14794107783C48C67 (void);
+// 0x00000026 System.Void Improvements::buy1_lvl3()
+extern void Improvements_buy1_lvl3_m4A36FBAAF85394EE6F17F3473911BFFEEA7D833A (void);
+// 0x00000027 System.Void Improvements::buy2_lvl1()
+extern void Improvements_buy2_lvl1_m8CF6ADF8C4B4D1D2A691645E8793195B2AA7DC60 (void);
+// 0x00000028 System.Void Improvements::buy2_lvl2()
+extern void Improvements_buy2_lvl2_m4A9E3558F8929471E1E3A214C012CE0562B3E494 (void);
+// 0x00000029 System.Void Improvements::buy2_lvl3()
+extern void Improvements_buy2_lvl3_m921A69370CBD6BA1D4F096442054682A8DC54E91 (void);
+// 0x0000002A System.Void Improvements::ImpBack()
+extern void Improvements_ImpBack_m69956560CC8E9E4D24BBECFD53B3CC8EB3F2FF86 (void);
+// 0x0000002B System.Void Improvements::.ctor()
+extern void Improvements__ctor_mC8E3DB93706FFE7FA28B4D3A3D06D975DC9DBCB4 (void);
+// 0x0000002C System.Void Intro::Next()
+extern void Intro_Next_m82EE64CD67A3623A93E74068C62F9B55E0AAA338 (void);
+// 0x0000002D System.Void Intro::ToMenu()
+extern void Intro_ToMenu_m7A57EB31EBB4C3B8C89D6C6BDA2D8010A348B7B5 (void);
+// 0x0000002E System.Void Intro::.ctor()
+extern void Intro__ctor_m33EE647A02A5B11927122D4C534667D61613F372 (void);
+// 0x0000002F System.Void MainScript::Start()
+extern void MainScript_Start_m437083E39CCD544C52AEE1BDCE76FD332708A092 (void);
+// 0x00000030 System.Void MainScript::ButtonClick()
+extern void MainScript_ButtonClick_m58BFCF89B0802456A5B970F8045D459C1917C077 (void);
+// 0x00000031 System.Void MainScript::OnClickUP()
+extern void MainScript_OnClickUP_m507DB8A7FBC74889B93A989A90B072F19399C532 (void);
+// 0x00000032 System.Void MainScript::Update()
+extern void MainScript_Update_m32DA40BFA9D341B633E6F14F605D23E55BB8532C (void);
+// 0x00000033 System.Void MainScript::Buy1()
+extern void MainScript_Buy1_mE6EB93767951FB53B4B235E61E397D008ADCD373 (void);
+// 0x00000034 System.Void MainScript::Buy10()
+extern void MainScript_Buy10_m2C5169B05CCA5544D1B8E087241195EBBE5E1642 (void);
+// 0x00000035 System.Void MainScript::Buy100()
+extern void MainScript_Buy100_m2E20C30996F9D99A7D59E9DF1217459B6DF428CB (void);
+// 0x00000036 System.Void MainScript::Buy(System.Int32)
+extern void MainScript_Buy_mFB9D60BBEF40F40C3E96EF3AA6C8479D8C533711 (void);
+// 0x00000037 System.Void MainScript::ToAchievement()
+extern void MainScript_ToAchievement_m0C7868F20C9F74565AF86A7AAF0015D792309F29 (void);
+// 0x00000038 System.Void MainScript::ToImp()
+extern void MainScript_ToImp_m618E678268B2E0EB1A92076180DB746DDE26D6B3 (void);
+// 0x00000039 System.Void MainScript::ToMenu()
+extern void MainScript_ToMenu_m8EE556CCD49F1610D107CEFF42BDF1DE07334FAE (void);
+// 0x0000003A System.Void MainScript::.ctor()
+extern void MainScript__ctor_mDE68DE7EC111F10F50287CE15AC2100BAC26DF23 (void);
+// 0x0000003B System.Void Menu::PlayGame()
+extern void Menu_PlayGame_m81BF64DE8850EA8E28746F7A1C8FD0D4943F6B4F (void);
+// 0x0000003C System.Void Menu::ExitGame()
+extern void Menu_ExitGame_mB22BA3021E594AA4F1EBA69FE4C845D31A6D1ECF (void);
+// 0x0000003D System.Void Menu::.ctor()
+extern void Menu__ctor_m7EE9043A2E9DD126B6F69DD8AE3BC9CBDF6E2134 (void);
+// 0x0000003E System.Void ResetTime::Update()
+extern void ResetTime_Update_mE233ADB1E8B7227CD8A7802A1C513EF4FDAA2D64 (void);
+// 0x0000003F System.Void ResetTime::TimerDisplay(System.Single)
+extern void ResetTime_TimerDisplay_m6FD3FCD123ACC19D8D59324547A9D1E4A323EC49 (void);
+// 0x00000040 System.Void ResetTime::.ctor()
+extern void ResetTime__ctor_m2FB4DC8B27B23740F2EB2F6199D50AC5D7B3DFBF (void);
+// 0x00000041 System.Void Settings::SetVolume(System.Single)
+extern void Settings_SetVolume_mD65A7C1D7118F84555A57873D199CFAE2D6E5CF0 (void);
+// 0x00000042 System.Void Settings::Sound()
+extern void Settings_Sound_mA24949995C4967519CC595C8180D836DA5740B72 (void);
+// 0x00000043 System.Void Settings::.ctor()
+extern void Settings__ctor_m2E00E4F8E213532A3051E24E75CE65368C0BB661 (void);
+// 0x00000044 System.Void Shop::ToShop()
+extern void Shop_ToShop_mE745A15E153F7161298C0A2FB3B123005586C2E0 (void);
+// 0x00000045 System.Void Shop::ShopBack()
+extern void Shop_ShopBack_m7C3D802BD0817C50EDF207134589C4DABD37B31A (void);
+// 0x00000046 System.Void Shop::.ctor()
+extern void Shop__ctor_m9321F06993F85B2AE2C6F4E443276AC9D48E738C (void);
+static Il2CppMethodPointer s_methodPointers[70] = 
+{
+	Achievement_Start_m28AFB8259C437FC563D1F58A4CD1BA28D3EA9FA9,
+	Achievement_AchievementBack_mE17349F6B693CE00CD1AF1E20B87D848B9179241,
+	Achievement__ctor_m72DF99642C6E1A316F0EA9B71EA138D60649EC6B,
+	Developer_Start_m41EB0BC4841D05A192635119F5E9A481B01BC951,
+	Developer_Update_m43CDA65AB1C7BE377D73A6BB038DA7F052DB1C7C,
+	Developer_ToDelevoper_mAB325BF2424468734B18440D538CDB9ADFFB5D30,
+	Developer_DeveloperBack_mD82081D2F5A649169827DF7A8B9EAEEB81EEA66E,
+	Developer_ResetProgress_mD92C2422A4839FDC447B603DAAFB2E7E3CFB2800,
+	Developer_ResetMoney_mD97140329D771BFD47EDAA8CBE2B8C96D3C3774B,
+	Developer_CheatMoney_m63613CBBE95A8A855D512B53E1730C3F6967E13A,
+	Developer_BuyD_m0A8C29BF6E5012C4EAF8F4AACE0C11C47E32F96B,
+	Developer_ResetImp_m8CD436780E2384F7EB9079A15195DA0B42CEBD01,
+	Developer_ResetDamage_m6745E4D9B4710F6AA81743F70F8D993F21AE757B,
+	Developer_ResetAchievements_m73E84862B2D3780FD296BC3776643D1DE31419E3,
+	Developer__ctor_mADE691CE2F6FC0C0DC09D118AC08B1EAC7862709,
+	FPS_Awake_m2CDBE4B429D1332DC4399A2EB27D4E3F359B2401,
+	FPS__ctor_mA34ADE1A160A89BFE82D0EA52A0A53A8AD8652C6,
+	Health_TakeHit_m545F7379649AA28D8B7ECDB2547339B66C4A58F0,
+	Health_Start_m67B788A33501A2CF22C3231FD3FCCD6D1D63A77F,
+	Health_Update_mBCA15B9BB7DC24D8DD34C254D94064723BC0B368,
+	Health_IdleFarm_m0F0FA4ECC92368A578F3B2D98042D33385BA78E6,
+	Health__ctor_mD50C73D87211EAE260B38B2936F01722E31B9416,
+	U3CIdleFarmU3Ed__10__ctor_mDD969A18BD82DC17630C56C9D5FD5ED57622EA28,
+	U3CIdleFarmU3Ed__10_System_IDisposable_Dispose_m92D13260E73B0430672FFAEE12A3372462A250B9,
+	U3CIdleFarmU3Ed__10_MoveNext_m8055D2A9E65C176694E269074F914944E6DE73A3,
+	U3CIdleFarmU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA6BC78031D2BC98616C87595FB1FE635FBC5BDD8,
+	U3CIdleFarmU3Ed__10_System_Collections_IEnumerator_Reset_mA1CB68A2B6A64B5FDB824207ADB424BA5BE00C83,
+	U3CIdleFarmU3Ed__10_System_Collections_IEnumerator_get_Current_m3847180855AC69753BDB308A499E46C1632317FF,
+	HealthBar_Start_mB10AF30B9000AC79352D4B0F9027D24C38D9AB98,
+	HealthBar_Update_m32757C89878259F331EE8A965C10360028EF6258,
+	HealthBar_SetMaxHealth_m785D009EF3219F59C1E49ED0C83D86C20AA1DFDA,
+	HealthBar_SetHealth_m93EA48185AB1C03D13E8E169753C93AE4E560463,
+	HealthBar__ctor_m0D26699B0FC0E360EE6F5D4B80FE0D2622F0AA48,
+	Improvements_Update_mA5B3272FFB70AF59180C9A0295C86C2FA2470DDA,
+	Improvements_Start_mCD2A87B0C31005DE25AFBF56DD8315A03999FB83,
+	Improvements_buy1_lvl1_m0E129197954EBA7BA5BF18F3C12C74A31F68B4A7,
+	Improvements_buy1_lvl2_m2859F1CB5348907ADDEFCEC14794107783C48C67,
+	Improvements_buy1_lvl3_m4A36FBAAF85394EE6F17F3473911BFFEEA7D833A,
+	Improvements_buy2_lvl1_m8CF6ADF8C4B4D1D2A691645E8793195B2AA7DC60,
+	Improvements_buy2_lvl2_m4A9E3558F8929471E1E3A214C012CE0562B3E494,
+	Improvements_buy2_lvl3_m921A69370CBD6BA1D4F096442054682A8DC54E91,
+	Improvements_ImpBack_m69956560CC8E9E4D24BBECFD53B3CC8EB3F2FF86,
+	Improvements__ctor_mC8E3DB93706FFE7FA28B4D3A3D06D975DC9DBCB4,
+	Intro_Next_m82EE64CD67A3623A93E74068C62F9B55E0AAA338,
+	Intro_ToMenu_m7A57EB31EBB4C3B8C89D6C6BDA2D8010A348B7B5,
+	Intro__ctor_m33EE647A02A5B11927122D4C534667D61613F372,
+	MainScript_Start_m437083E39CCD544C52AEE1BDCE76FD332708A092,
+	MainScript_ButtonClick_m58BFCF89B0802456A5B970F8045D459C1917C077,
+	MainScript_OnClickUP_m507DB8A7FBC74889B93A989A90B072F19399C532,
+	MainScript_Update_m32DA40BFA9D341B633E6F14F605D23E55BB8532C,
+	MainScript_Buy1_mE6EB93767951FB53B4B235E61E397D008ADCD373,
+	MainScript_Buy10_m2C5169B05CCA5544D1B8E087241195EBBE5E1642,
+	MainScript_Buy100_m2E20C30996F9D99A7D59E9DF1217459B6DF428CB,
+	MainScript_Buy_mFB9D60BBEF40F40C3E96EF3AA6C8479D8C533711,
+	MainScript_ToAchievement_m0C7868F20C9F74565AF86A7AAF0015D792309F29,
+	MainScript_ToImp_m618E678268B2E0EB1A92076180DB746DDE26D6B3,
+	MainScript_ToMenu_m8EE556CCD49F1610D107CEFF42BDF1DE07334FAE,
+	MainScript__ctor_mDE68DE7EC111F10F50287CE15AC2100BAC26DF23,
+	Menu_PlayGame_m81BF64DE8850EA8E28746F7A1C8FD0D4943F6B4F,
+	Menu_ExitGame_mB22BA3021E594AA4F1EBA69FE4C845D31A6D1ECF,
+	Menu__ctor_m7EE9043A2E9DD126B6F69DD8AE3BC9CBDF6E2134,
+	ResetTime_Update_mE233ADB1E8B7227CD8A7802A1C513EF4FDAA2D64,
+	ResetTime_TimerDisplay_m6FD3FCD123ACC19D8D59324547A9D1E4A323EC49,
+	ResetTime__ctor_m2FB4DC8B27B23740F2EB2F6199D50AC5D7B3DFBF,
+	Settings_SetVolume_mD65A7C1D7118F84555A57873D199CFAE2D6E5CF0,
+	Settings_Sound_mA24949995C4967519CC595C8180D836DA5740B72,
+	Settings__ctor_m2E00E4F8E213532A3051E24E75CE65368C0BB661,
+	Shop_ToShop_mE745A15E153F7161298C0A2FB3B123005586C2E0,
+	Shop_ShopBack_m7C3D802BD0817C50EDF207134589C4DABD37B31A,
+	Shop__ctor_m9321F06993F85B2AE2C6F4E443276AC9D48E738C,
+};
+static const int32_t s_InvokerIndices[70] = 
+{
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	944,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	765,
+	1113,
+	944,
+	1113,
+	1101,
+	1082,
+	1113,
+	1082,
+	1113,
+	1113,
+	944,
+	944,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	944,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+	971,
+	1113,
+	971,
+	1113,
+	1113,
+	1113,
+	1113,
+	1113,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	70,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
