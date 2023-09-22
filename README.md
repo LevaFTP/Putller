@@ -1,5 +1,4 @@
 # Putller
-Android game.<br>
 A game for Android, written in C# + UNITY.<br>
 Clicker, in which you have to kill enemies, upgrade weapons and skills. The final boss is Putin.
 ---
